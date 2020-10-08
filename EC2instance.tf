@@ -7,20 +7,7 @@ Step 3: move terraform.exe file to bin directory like below. (so any ware you ca
        C:\Users\anvesh> mv .\Desktop\terraform.exe bin
 Step 4: search environment variables in windows and edit the path like below 
 
-	
-
-
-
-
-
-
-
-
-Step5 : 
-
-
-
-
+Step 5 : 
 
 Step 6:
 	• Log on to AWS console
@@ -28,15 +15,10 @@ Step 6:
 	• Create username of terraform with programmatic access like below
 	
 	
+Step 7:download .csv file and save on the desktop.
 	
 	
-	
-	
-	
-	Step 7:download .csv file and save on the desktop.
-	
-	
-	Step8 : open a notepad and copy below values and save  in anvesh's aws  folder with all files format
+Step 8 : open a notepad and copy below values and save  in anvesh's aws  folder with all files format
 	
 	
 	aws_access_key_id=AKIAW2M7ZRWKE34H6GV5
@@ -91,39 +73,18 @@ Step 6:
 	• By doing below command it will create a example plan
 	terraform  plan -destroy  -out=example.plan
 	
-	
-
-
-
 	• To show the plan 
 	terraform show example.plan
 	
-	
-	
-	
-	
-	
 	Terraform State :
-	
-	
-	
-	
-	
-	
+
 	Terraform state show (security group )
 	
-	
 	Terraform Graph:
-	
-	
 
-	
-	
-	
 	Resources:
 	
-	
-	
+
 	---------------------------------------------------------------------------------------------------------------
 	Install Terraform on Ubuntu 20.04 |18.04 
 	
