@@ -21,8 +21,8 @@ Step 7:download .csv file and save on the desktop.
 Step 8 : open a notepad and copy below values and save  in anvesh's aws  folder with all files format
 	
 	
-	aws_access_key_id=AKIAW2M7ZRWKE34H6GV5
-	aws_secret_access_key=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.
+	aws_access_key_id=
+	aws_secret_access_key=.
 	
 	Step 8: Go to powershell and check like below
 	
@@ -187,8 +187,8 @@ Step 11:
 anvesh@ubuntu:~/projects$ cat main.tf 
 # Provider
  provider "aws" {
-   access_key = "AKIAJRQQKJVZFADXQM3A"
-   secret_key = "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"
+   access_key = ""
+   secret_key = ""
    region = "us-east-1"
  }
 anvesh@ubuntu:~/projects$ 
